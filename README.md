@@ -9,6 +9,10 @@ send a zero twist then stop forwarding messages from
 /cmd_vel_estop.
 
 --- INSTALLATION ---
+Requires ROS (tested on Indigo) and rqt
+sudo apt-get install ros-%DISTRO%-rqt ros-%DISTRO%-rqt-common-plugins
+
+
 cd ~/catkin_ws/src
 git clone git@github.com:nrjl/rqt_estop.git
 cd ..
