@@ -26,7 +26,7 @@ set(rqt_estop_UIS
 )
 
 set(rqt_estop_INCLUDE_DIRECTORIES
-  include
+  #  include
   ${CMAKE_CURRENT_BINARY_DIR}
 )
 
