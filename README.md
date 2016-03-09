@@ -10,7 +10,7 @@ Requires ROS (tested on Indigo) and rqt
 sudo apt-get install ros-%DISTRO%-rqt ros-%DISTRO%-rqt-common-plugins
 
 cd ~/catkin_ws/src
-git clone git@github.com:nrjl/rqt_estop.git
+git clone https://github.com/nrjl/rqt_estop.git
 cd ..
 catkin_make
 ```
